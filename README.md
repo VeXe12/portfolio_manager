@@ -36,12 +36,13 @@ An end-to-end data engineering pipeline and web application that automates the t
    pip install -r requirements.txt
 
 3. **Set up local secrets:**
+
    Create a .streamlit/secrets.toml file in the root directory and add your Gmail App Password:
    ```Ini, TOML
    GMAIL_USER = "your_email@gmail.com"
    GMAIL_PASSWORD = "your_16_digit_app_password"
 
-4. **Run the app:**
+5. **Run the app:**
    ```bash
    streamlit run app.py
 
@@ -56,5 +57,5 @@ The application accepts .xlsx or .csv files. The data must contain the following
 ## 👨‍💻 Author
 
 **Sujal Shrivastava**
-B.Tech (Computer Science & Business Systems)
-* [LinkedIn](`https://www.linkedin.com/in/sujal-shrivastava-355470250/`)
+| B.Tech (Computer Science & Business Systems)
+* [LinkedIn](https://www.linkedin.com/in/sujal-shrivastava-355470250/)
