@@ -1,0 +1,11 @@
+# Ignore Streamlit Secrets (CRITICAL FOR SECURITY)
+.streamlit/
+
+# Ignore Python cache and virtual environments
+__pycache__/
+venv/
+env/
+.env
+
+# Ignore Mac OS background files
+.DS_Store
